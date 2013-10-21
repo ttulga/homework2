@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- moved header to server side includes -->
+		<!--#include virtual="inc/header.html" -->
+	</head>
+	<body>
+		<div class="content-box">
+			<header>
+				<a href="index.shtml"><img class="logo" src="img/logo.png" alt="logo"></a>
+
+				<h1>Dawg Pizza</h1>
+
+				<p class="hours">Open MON - SAT <br> 10 AM to 11 PM <br> (206)555-1212</p>
+
+				<p class="description">Awesome wood-fired pizza with fresh ingredients baked to order. <br> Come in and eat, or call us for delivery!</p>	
+			</header>
+			
+			
+			<nav>
+				<ul>
+					<li><a href="index.shtml">Home</a></li>
+					<li><a href="menu.shtml">Menu</a></li>
+					<li><a href="about.shtml">About Us</a></li>
+				</ul>
+			</nav>
+			<img class="pizza-size" src="img/pizza1.jpg" alt="pizza">
+
+			<address> 
+				<p>4306 University Way NE, <br> Seattle, WA 98105</p>
+			</address>
+
+			<div class="footer">
+				<!-- moved header to server side includes -->
+    			<!--#include virtual="inc/footer.html" -->
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,40 +1,43 @@
-/* imported stint ultra google font */
 @import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
-/* reset */
-@import url(reset.css);
 
 body {
-	background-image: url(../img/background.png);
+	background-image: url(../img/pizza1.jpg);
 	background-repeat: repeat;
-	font-family: 'Stint Ultra Expanded', cursive;'
+	font-family: 'Stint Ultra Expanded', sans-serif;
 	font-size: 18px;
-	padding: 10px;
 }
 
-/* uses another background image */
-.content-box {
-	width: 70%;
-	background-image: url(../img/grunge.jpg);
-	margin: 0 auto;
-	margin-top: 40px;
-	box-shadow: 2px 2px 6px #555;
+.container {
 }
 
-/* line up logo with nav bar by changing width and height */
-.logo {
+.navbar {
+	background-color: #5D2F8C;
+	clear: both;
+}
+
+.active {
+	background-color: #F0C008;
+}
+
+header img {
 	float: left;
-	margin-right: 10px;
-	width: 100px;
+	width: 300px;
 	height: 100px;
+
 }
 
-/* make pizza picture so it fills the content box */
-.pizza-size {
-	width: 100%;
+.hours {
+	float: right;
+	clear: both;
+}
+
+.description {
+	float: left;
 	margin: 0 auto;
+	
+	margin-left: 20px;
 }
 
-/* styles both order and oven pictures */
 .order {
 	width: 30%;
 	float: right;
@@ -42,79 +45,30 @@ body {
 	margin-bottom: 10px;
 }
 
-section {
-	padding: 10px;
-}
-
-h1 {
-	font-size: 200%;
-	margin: 0 auto;
-	font-style: bold;
-}
-
-h2 {
-	font-size: 150%;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-h3 {
-	margin-top: 5px;
-	font-size: 110%;
-}
-
-/* line up hours with description */
-.hours {
-	float: right;
-	margin-right: 10px;
-}
-
-nav {
-	clear: both;
-}
-
-nav ul {
-	background-color: #9C75CA;
-	
-}
-
-nav li {
-	display: inline-block;
-}
-
-nav a {
-	display: inline-block;
-	padding: 10px;
-	color: #74361E;
-}
-
-nav a:link, 
-nav a:visited {
-	text-decoration: none;
-}
-
-/* footer links change colors when hovered as well */
-.hyperlink:hover,
-nav a:hover {
+address p {
 	color: #FFF;
 }
 
-address {
-	padding: 10px;
+iframe {
+	float: right;
+	margin-bottom: 100px;
 }
 
 .footer {
+	clear: both;
 	border-style:solid;
 	border-top:thin double #000;
 	font-style: italic;
 	font-size: 70%;
 	padding: 10px;
+	background-color: #5D2F8C;
 }
 
-/*took off decoration and changed color */
+.footer p {
+	color: #FFF;
+}
+
 .hyperlink {
 	text-decoration: none;
-	color: #000;
+	color: #FFF;
 }
-
-

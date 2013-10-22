@@ -54,13 +54,17 @@ iframe {
 	margin-bottom: 100px;
 }
 
+p {
+	margin: none;
+}
+
 .footer {
 	clear: both;
 	border-style:solid;
 	border-top:thin double #000;
 	font-style: italic;
 	font-size: 70%;
-	padding: 10px;
+	margin: none;
 	background-color: #5D2F8C;
 }
 

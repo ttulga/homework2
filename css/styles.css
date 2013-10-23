@@ -32,6 +32,9 @@ body {
 	margin-top: 40px;
 }
 
+:focus {
+	color: blue;
+}
 .page-header {
 	font-family: 'Ruda', sans-serif;
 	color: #EF3737;
@@ -75,14 +78,23 @@ section,
 	color: #FFF;
 }
 
-.container iframe {
+.video {
 	float: right;
-	margin-bottom: 100px;
 	border: 0px;
 }
 
+
+
 p {
 	margin: 0px;
+}
+
+dt {
+	font-size: 150%;
+}
+
+dd {
+	font-size: 120%;
 }
 
 .col-md-8 {
@@ -112,6 +124,11 @@ p {
 .footer p {
 	display: inline-block;
 	padding: 5px;
+}
+
+small {
+	text-decoration: none;
+	color: #FFF;
 }
 
 .hyperlink {

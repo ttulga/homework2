@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,900);
 
 body {
 	background-image: url(../img/pizza1.jpg);
@@ -15,9 +17,13 @@ body {
 	clear: both;
 }
 
-/* .navbar li .active {
-	background-color: #F0C008;
-} */
+.active a {
+	background-color: #F0C008 !important;
+} 
+
+.navbar {
+	border-color: #F0C008 !important;
+}
 
 .page-header img {
 	float: left;
@@ -27,19 +33,31 @@ body {
 }
 
 .page-header {
-	color: #F0C008;
+	font-family: 'Ruda', sans-serif;
+	color: #EF3737;
 }
 
 .hours {
 	float: right;
 	margin-top: 40px;
+	margin-right: 30px;
 }
 
 .description {
 	float: left;
 	margin-top: 20px;
 	margin-left: 25px;
-	font-size: 90%;
+}
+
+.description h1 {
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 300%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.description p {
+	font-size: 115%;
 }
 
 .order {
@@ -60,6 +78,7 @@ section,
 .container iframe {
 	float: right;
 	margin-bottom: 100px;
+	border: 0px;
 }
 
 p {
@@ -70,17 +89,29 @@ p {
 	margin-bottom: 50px;
 }
 
+.wrapper {
+	width: 90%;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	bottom: 0px;
+}
 .footer {
 	clear: both;
 	border-style:solid;
-	border-top:thin double #000;
+	border-top:thin double;
+	border-color: #F0C008;
 	font-style: italic;
 	font-size: 70%;
 	background-color: #5D2F8C;
-	position: fixed;
-	bottom: 0px;
-	left: 50px;
-	width: 92%;
+	position: relative;
+	width: 100%;
+}
+
+.footer p {
+	display: inline-block;
+	padding: 5px;
 }
 
 .hyperlink {

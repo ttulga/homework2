@@ -15,7 +15,7 @@
 					<p>Come in and eat, or call us for delivery!</p>
 				</div>
 				
-				<div class="hours">
+				<div class="hours" tabindex="6">
 					<p>Open MON - SAT</p> 
 					<p>10 AM to 11 PM</p> 
 					<p>(206)555-1212</p>

@@ -24,6 +24,16 @@ body {
 	width: 300px;
 	height: 100px;
 	margin-top: 40px;
+
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2 ease;
+
 }
 
 :focus {
@@ -131,4 +141,13 @@ small {
 .hyperlink {
 	text-decoration: none;
 	color: #FFF;
+}
+
+.page-header img:hover {
+	box-shadow: 2px, 2px, 6px #555;
+	-webkit-transform: scale(1.5) rotate(-5deg);
+	-moz-transform: scale(1.5) rotate(-5deg);
+	-o-transform: scale(1.5) rotate(-5deg);
+	-ms-transform: scale(1.5) rotate(-5deg);
+	transform: scale(1.5) rotate(-5deg);
 }

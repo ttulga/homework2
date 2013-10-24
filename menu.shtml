@@ -34,7 +34,7 @@
 
                 <div class="collapse navbar-collapse dawgpizza-navbar-menu">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="index.shtml">Home</a></li>
                         <li><a href="menu.shtml">Menu</a></li>
                         <li><a href="about.shtml">About Us</a></li>                   
                     </ul>

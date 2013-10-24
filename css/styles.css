@@ -31,10 +31,10 @@ body {
 }
 .page-header {
 	font-family: 'Ruda', sans-serif;
-	color: #EF3737;
+	color: #5D2F8C;
 	text-shadow: 2px 2px #FFCE47;
 }
-
+/*EF3737*/
 .hours {
 	float: right;
 	margin-top: 40px;

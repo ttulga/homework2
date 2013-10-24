@@ -27,14 +27,14 @@ body {
 }
 
 :focus {
-	color: blue;
+	color: #EF3737;
 }
 .page-header {
 	font-family: 'Ruda', sans-serif;
 	color: #5D2F8C;
 	text-shadow: 2px 2px #FFCE47;
 }
-/*EF3737*/
+
 .hours {
 	float: right;
 	margin-top: 40px;

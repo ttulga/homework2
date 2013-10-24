@@ -19,10 +19,6 @@ body {
 	background-color: #FFCE47 !important;
 } 
 
-/*.navbar li a {
-	color: #FFCE47 !important;
-} */
-
 .page-header img {
 	float: left;
 	width: 300px;
@@ -80,9 +76,9 @@ section,
 
 .video {
 	float: right;
-	border: 0px;
 }
 
+/* deleted margin bottom that came from bootstrap */
 p {
 	margin: 0px;
 }
@@ -114,6 +110,7 @@ address {
 	position: fixed;
 	bottom: 0px;
 }
+
 .footer {
 	clear: both;
 	border-style:solid;

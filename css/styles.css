@@ -9,21 +9,19 @@ body {
 	font-size: 18px;
 }
 
-.container {
-}
-
 .navbar {
 	background-color: #5D2F8C;
 	clear: both;
+	border-color: #FFCE47!important;
 }
 
 .active a {
-	background-color: #F0C008 !important;
+	background-color: #FFCE47 !important;
 } 
 
-.navbar {
-	border-color: #F0C008 !important;
-}
+/*.navbar li a {
+	color: #FFCE47 !important;
+} */
 
 .page-header img {
 	float: left;
@@ -38,6 +36,7 @@ body {
 .page-header {
 	font-family: 'Ruda', sans-serif;
 	color: #EF3737;
+	text-shadow: 2px 2px #FFCE47;
 }
 
 .hours {
@@ -72,6 +71,7 @@ body {
 
 address p,
 .row,
+dl,
 section,
 .footer p,
 .hyperlink:hover {
@@ -82,8 +82,6 @@ section,
 	float: right;
 	border: 0px;
 }
-
-
 
 p {
 	margin: 0px;
@@ -97,8 +95,15 @@ dd {
 	font-size: 120%;
 }
 
-.col-md-8 {
+.row,
+.about-content,
+address {
 	margin-bottom: 50px;
+	text-shadow: 2px 2px #5D2F8C;
+}
+
+.map {
+	margin-bottom: 100px;
 }
 
 .wrapper {
@@ -113,7 +118,7 @@ dd {
 	clear: both;
 	border-style:solid;
 	border-top:thin double;
-	border-color: #F0C008;
+	border-color: #FFCE47;
 	font-style: italic;
 	font-size: 70%;
 	background-color: #5D2F8C;
@@ -135,4 +140,3 @@ small {
 	text-decoration: none;
 	color: #FFF;
 }
-
